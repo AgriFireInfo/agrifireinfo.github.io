@@ -261,38 +261,38 @@ let counties = {
     'Qiqihar': ['Longsha', 'Jianhua', 'Tiefeng', 'Angangxi', 'Fulaerji', 'Nianzishan', 'Meilisidawoerzu', 'Longjiang', 'Yian', 'Tailai', 'Gannan', 'Fuyu', 'Keshan', 'Kedong', 'Baiquan', 'Nehe'],
     'Jixi': ['Jiguan', 'Hengshan', 'Didao', 'Lishu', 'Chengzihe', 'Mashan', 'Jidong', 'Hulin', 'Mishan'],
     'Hegang': ['Xingshan', 'Gongnong', 'Nanshan', 'Xingan', 'Dongshan', 'Xingshan', 'Luobeixian', 'Suibin'],
-    'Shuangyashan': ['尖山区', '岭东区', '四方台区', '宝山区', '集贤县', '友谊县', '宝清县', '饶河县'],
-    'Daqing': ['萨尔图区', '龙凤区', '让胡路区', '红岗区', '大同区', '肇州县', '肇源县', '林甸县', '杜尔伯特蒙古族自治县'],
-    'Yichun': ['伊美区', '乌翠区', '友好区', '嘉荫县', '汤旺县', '丰林县', '大箐山县', '南岔县', '金林区', '铁力市'],
-    'Jiamusi': ['Xingshan', '前进区', '东风区', '郊区', '桦南县', '桦川县', '汤原县', '同江市', '富锦市', '抚远市'],
-    'Qitaihe': ['新兴区', '桃山区', '茄子河区', '勃利县'],
-    'Mudanjiang': ['东安区', '阳明区', '爱民区', '西安区', '林口县', '绥芬河市', '海林市', '宁安市', '穆棱市', '东宁市'],
-    'Heihe': ['爱辉区', '逊克县', '孙吴县', '北安市', '五大连池市', '嫩江市'],
-    'Suihua': ['北林区', '望奎县', '兰西县', '青冈县', '庆安县', '明水县', '绥棱县', '安达市', '肇东市', '海伦市'],
-    'Daxinganling': ['漠河市', '呼玛县', '塔河县'],
-    'Changchun': ['南关区', '宽城区', '朝阳区', '二道区', '绿园区', '双阳区', '九台区', '农安县', '榆树市', '德惠市','公主岭市'],
-    'Jilin': ['昌邑区', '龙潭区', '船营区', '丰满区', '永吉县', '蛟河市', '桦甸市', '舒兰市', '磐石市'],
-    'Siping': ['铁西区', '铁东区', '梨树县', '伊通满族自治县', '双辽市'],
-    'Liaoyuan': ['龙山区', '西安区', '东丰县', '东辽县'],
-    'Tonghua': ['东昌区', '二道江区', '通化县', '辉南县', '柳河县', '梅河口市', '集安市'],
-    'Baishan': ['浑江区', '江源区', '抚松县', '靖宇县', '长白朝鲜族自治县', '临江市'],
-    'Songyuan': ['宁江区', '前郭尔罗斯蒙古族自治县', '长岭县', '乾安县', '扶余市'],
-    'Baicheng': ['洮北区', '镇赉县', '通榆县', '洮南市', '大安市'],
-    'Yanbian': ['延吉市', '图们市', '敦化市', '珲春市', '龙井市', '和龙市', '汪清县', '安图县'],
-    'Shenyang': ['和平区', '沈河区', '大东区', '皇姑区', '铁西区', '苏家屯区', '浑南区', '沈北新区', '于洪区', '辽中区', '康平县', '法库县', '新民市'],
-    'Dalian': ['中山区', '西岗区', '沙河口区', '甘井子区', '旅顺口区', '金州区', '普兰店区', '长海县', '瓦房店市', '庄河市'],
-    'Anshan': ['铁东区', '铁西区', '立山区', '千山区', '台安县', '岫岩满族自治县', '海城市'],
-    'Fushun': ['新抚区', '东洲区', '望花区', '顺城区', '抚顺县', '新宾满族自治县', '清原满族自治县'],
-    'Benxi': ['平山区', '溪湖区', '明山区', '南芬区', '本溪满族自治县', '桓仁满族自治县'],
-    'Dandong': ['元宝区', '振兴区', '振安区', '宽甸满族自治县', '东港市', '凤城市'],
-    'Jinzhou': ['古塔区', '凌河区', '太和区', '黑山县', '义县', '凌海市', '北镇市'],
-    'Yingkou': ['站前区', '西市区', '鲅鱼圈区', '老边区', '盖州市', '大石桥市'],
-    'Fuxin': ['海州区', '新邱区', '太平区', '清河门区', '细河区', '阜新蒙古族自治县', '彰武县'],
-    'Liaoyang': ['白塔区', '文圣区', '宏伟区', '弓长岭区', '太子河区', '辽阳县', '灯塔市'],
-    'Panjin': ['双台子区', '兴隆台区', '大洼区', '盘山县'],
-    'Tieling': ['银州区', '清河区', '铁岭县', '西丰县', '昌图县', '调兵山市', '开原市'],
-    'Chaoyang': ['Shuangtaqu', 'Longchengqu', 'Chaoyangxian', 'Jianpingxian', 'Kezuomenggu', 'Beipiaoshi', 'lingyuanshi'],
-    'Huludao': ['Lianshanqu', 'Longgangqu', 'Nanpiaoqu', 'Suizhongxian', 'Jianchangxian', 'Xingchengshi']
+    'Shuangyashan': ['Jianshan', 'Lingdong', 'Sifangtai', 'Baoshan', 'Jixian', 'Youyi', 'Baoqing', 'Raohe'],
+    'Daqing': ['Saertu', 'Longfeng', 'Ranghulu', 'Honggang', 'Datong', 'Zhaozhou', 'Zhaoyuan', 'Lindian', 'Duerbote'],
+    'Yichun': ['Yimei', 'Wucui', 'Youhao', 'Jiayin', 'Tangwang', 'Fenglin', 'Daqingshan', 'Nancha', 'Jinlin', 'Tieli'],
+    'Jiamusi': ['Xingshan', 'Qianjin', 'Dongfeng', 'Jiaoqu', 'Huanan', 'Huachuan', 'Tangyuan', 'Tongjiang', 'Fujin', 'Fuyuan'],
+    'Qitaihe': ['Xinxing', 'Taoshan', 'Qiezihe', 'Boli'],
+    'Mudanjiang': ['Dongan', 'Yangming', 'Aimin', 'Xian', 'Linkou', 'Suifenhe', 'Hailin', 'Ningan', 'Muling', 'Dongning'],
+    'Heihe': ['Aihui', 'Xunke', 'Sunwu', 'Beian', 'Wudalianchi', 'Nenjiang'],
+    'Suihua': ['Beilin', 'Wangkui', 'Lanxi', 'Qinggang', 'Qingan', 'Mingshui', 'Suiling', 'Anda', 'Zhaodong', 'Hailun'],
+    'Daxinganling': ['Mohe', 'Huma', 'Tahe'],
+    'Changchun': ['Nanguan', 'Kuancheng', 'Chaoyang', 'Erdao', 'Lvyuan', 'Shuangyang', 'Jiutai', 'Nongan', 'Yushu', 'Panshi','Gongzhuling'],
+    'Jilin': ['Changyi', 'Longtan', 'Chuanying', 'Fengman', 'Yongji', 'Jiaohe', 'Huadian', 'Shulan', 'Panshi'],
+    'Siping': ['Tiexi', 'Tiedong', 'Lishu', 'Yintongmanzu', 'Shuangliao'],
+    'Liaoyuan': ['Longshan', 'Xian', 'Dongfeng', 'Dongliao'],
+    'Tonghua': ['Dongchang', 'Erdaojiang', 'Tonghua', 'Huinan', 'Liuhe', 'Meihekou', 'Jian'],
+    'Baishan': ['Hunjiang', 'Jiangyuan', 'Fusong', 'Jingyu', 'Changbaichaoxian', 'Linjiang'],
+    'Songyuan': ['Ningjiang', 'Qianguoerluosi', 'Changling', 'Qianan', 'Fuyu'],
+    'Baicheng': ['Taobei', 'Zhenlai', 'Tongyu', 'Taonan', 'Daan'],
+    'Yanbian': ['Yanji', 'Tumen', 'Dunhua', 'Hunchun', 'Longjing', 'Helong', 'Wangqing', 'Antu'],
+    'Shenyang': ['Heping', 'Shenhe', 'Dadong', 'Huanggu', 'Tiexi', 'Sujiatun', 'Hunnan', 'Shenbeixin', 'Yuhong', 'Liaozhong', 'Kangping', 'Faku', 'Xinmin'],
+    'Dalian': ['Zhongshan', 'Xigang', 'Shahekou', 'Ganjingzi', 'Lvshunkou', 'Jinzhou', 'Pulandian', 'Changhai', 'Wafangdian', 'Zhuanghe'],
+    'Anshan': ['Tiedong', 'Tiexi', 'Lishan', 'Qianshan', 'Taian', 'Youyanmanzu', 'Haicheng'],
+    'Fushun': ['Xinfu', 'Dongzhou', 'Wanghua', 'Shuncheng', 'Fushun', 'Xinbinmanzu', 'Qingyuanmanzu'],
+    'Benxi': ['Pingshan', 'Xihu', 'Mingshan', 'Nanfen', 'Benximanzu', 'Huanrenmanzu'],
+    'Dandong': ['Yuanbao', 'Zhenxing', 'Zhenan', 'Kuandianmanzu', 'Donggang', 'Fengcheng'],
+    'Jinzhou': ['Guta', 'Linghe', 'Taihe', 'Heishan', 'Yixian', 'Linghai', 'Beizhen'],
+    'Yingkou': ['Zhanqian', 'Xishi', 'Bayuquan', 'Laobian', 'Gaizhou', 'Dashiqiao'],
+    'Fuxin': ['Haizhou', 'Xinqiu', 'Taiping', 'Qinghemen', 'Xihe', 'Fuxinmengguzu', 'Zhangwu'],
+    'Liaoyang': ['Baita', 'Wensheng', 'Hongwei', 'Gongchangling', 'Taizihe', 'Liaoyang', 'Dengta'],
+    'Panjin': ['Shuangtaizi', 'Xinglongtai', 'Dawa', 'Panshan'],
+    'Tieling': ['Yinzhou', 'Qinghe', 'Tieling', 'Xifeng', 'Changtu', 'Diaobingshan', 'Kaiyuan'],
+    'Chaoyang': ['Shuangta', 'Longcheng', 'Chaoyang', 'Jianping', 'Kezuomenggu', 'Beipiao', 'lingyuan'],
+    'Huludao': ['Lianshan', 'Longgang', 'Nanpiao', 'Suizhong', 'Jianchang', 'Xingcheng']
 };
 provinceSelect.innerHTML = '<option value="">Select Province</option>';
 // 初始化省份下拉框
@@ -598,140 +598,140 @@ function checkSelectedValues() {
         time(labelHegangSuibinCounty);
     }
     //Shuangyashan
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '尖山区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Jianshan') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanJianshanDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '岭东区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Lingdong') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanLingdongDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '四方台区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Sifangtai') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanSifangtaiDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '宝山区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Baoshan') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanBaoshanDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '集贤县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Jixian') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanJixianCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '友谊县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Youyi') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanYouyiCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '宝清县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Baoqing') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanBaoqingCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === '饶河县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Shuangyashan' && countySelect.value === 'Raohe') {
         index = 0;
         setTimeImage(0);
         time(labelShuangyashanYaoheCounty);
     }
     //Daqing
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '萨尔图区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Saertu') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingSaertuDistrict);
     }
 
 
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '龙凤区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Longfeng') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingLongfengDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '让胡路区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Ranghulu') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingRanghuluDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '红岗区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Honggang') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingHonggangDistrict);
-    } else if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '大同区') {
+    } else if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Datong') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingDatongDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '肇州县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Zhaozhou') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingZhaozhouCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '肇源县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Zhaoyuan') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingZhaoyuanCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '林甸县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Lindian') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingLindianCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === '杜尔伯特蒙古族自治县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daqing' && countySelect.value === 'Duerbote') {
         index = 0;
         setTimeImage(0);
         time(labelDaqingDuerboteCounty);
     }
     //Yichun
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '伊美区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Yimei') {
         index = 0;
         setTimeImage(0);
         time(labelYichunYimeiDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '乌翠区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Wucui') {
         index = 0;
         setTimeImage(0);
         time(labelYichunWucuiDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '友好区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Youhao') {
         index = 0;
         setTimeImage(0);
         time(labelYichunYouhaoDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '金林区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Jinlin') {
         index = 0;
         setTimeImage(0);
         time(labelYichunJinlinDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '嘉荫县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Jiayin') {
         index = 0;
         setTimeImage(0);
         time(labelYichunJiayinCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '汤旺县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Tangwang') {
         index = 0;
         setTimeImage(0);
         time(labelYichunTangwangCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '丰林县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Fenglin') {
         index = 0;
         setTimeImage(0);
         time(labelYichunFenglinCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '大箐山县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Daqingshan') {
         index = 0;
         setTimeImage(0);
         time(labelYichunDaqingshanCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '南岔县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Nancha') {
         index = 0;
         setTimeImage(0);
         time(labelYichunNanchaCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === '铁力市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Yichun' && countySelect.value === 'Tieli') {
         index = 0;
         setTimeImage(0);
         time(labelYichunTieliCity);
@@ -743,659 +743,659 @@ function checkSelectedValues() {
         time(labelJiamusiXiangyangDistrict);
     }
 
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '前进区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Qianjin') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiQianjinDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '东风区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Dongfeng') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiDongfengDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '郊区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Jiaoqu') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiJiaoDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '桦南县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Huanan') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiHuananCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '桦川县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Huachuan') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiHuachuanCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '汤原县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Tangyuan') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiTangyuanCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '同江市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Tongjiang') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiTongjiangCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '富锦市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Fujin') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiFujinCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === '抚远市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Jiamusi' && countySelect.value === 'Fuyuan') {
         index = 0;
         setTimeImage(0);
         time(labelJiamusiFuyuanCity);
     }
     //Qitaihe
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === '新兴区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === 'Xinxing') {
         index = 0;
         setTimeImage(0);
         time(labelQitaiheXinxingDistrict);
     }
 
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === '桃山区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === 'Taoshan') {
         index = 0;
         setTimeImage(0);
         time(labelQitaiheTaoshanDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === '茄子河区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === 'Qiezihe') {
         index = 0;
         setTimeImage(0);
         time(labelQitaiheQieziheDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === '勃利县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Qitaihe' && countySelect.value === 'Boli') {
         index = 0;
         setTimeImage(0);
         time(labelQitaiheBoliCounty);
     }
     //Mudanjiang
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '东安区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Dongan') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangDonganDistrict);
     }
 
 
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '阳明区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Yangming') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangYangmingDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '爱民区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Aimin') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangAiminDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '西安区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Xian') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangXianDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '林口县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Linkou') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangLinkouCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '绥芬河市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Suifenhe') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangSuifenheCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '海林市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Hailin') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangHailinCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '宁安市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Ningan') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangNinganCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '穆棱市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Muling') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangMulingCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === '东宁市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Mudanjiang' && countySelect.value === 'Dongning') {
         index = 0;
         setTimeImage(0);
         time(labelMudanjiangDongningCity);
     }
     //Heihe
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === '爱辉区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === 'Aihui') {
         index = 0;
         setTimeImage(0);
         time(labelHeiheAihuiDistrict);
     }
 
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === '逊克县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === 'Xunke') {
         index = 0;
         setTimeImage(0);
         time(labelHeiheXunkeCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === '孙吴县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === 'Sunwu') {
         index = 0;
         setTimeImage(0);
         time(labelHeiheSunwuCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === '北安市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === 'Beian') {
         index = 0;
         setTimeImage(0);
         time(labelHeiheBeianCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === '五大连池市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === 'Wudalianchi') {
         index = 0;
         setTimeImage(0);
         time(labelHeiheWudalianchiCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === '嫩江市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Heihe' && countySelect.value === 'Nenjiang') {
         index = 0;
         setTimeImage(0);
         time(labelHeiheNenjiangCity);
     }
     //Suihua
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '北林区') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Beilin') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaBeilinDistrict);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '望奎县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Wangkui') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaWangkuiCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '兰西县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Lanxi') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaLanxiCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '青冈县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Qinggang') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaQinggangCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '庆安县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Qingan') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaQinganCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '明水县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Mingshui') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaMingshuiCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '绥棱县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Suiling') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaSuilingCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '安达市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Anda') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaAndaCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '肇东市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Zhaodong') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaZhaodongCity);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === '海伦市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Suihua' && countySelect.value === 'Hailun') {
         index = 0;
         setTimeImage(0);
         time(labelSuihuaHailunCity);
     }
     //Daxinganling
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daxinganling' && countySelect.value === '漠河市') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daxinganling' && countySelect.value === 'Mohe') {
         index = 0;
         setTimeImage(0);
         time(labelDaxinganlingMoheCity);
     }
 
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daxinganling' && countySelect.value === '呼玛县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daxinganling' && countySelect.value === 'Huma') {
         index = 0;
         setTimeImage(0);
         time(labelDaxinganlingHumaCounty);
     }
-    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daxinganling' && countySelect.value === '塔河县') {
+    if (provinceSelect.value === 'Heilongjiang' && citySelect.value === 'Daxinganling' && countySelect.value === 'Tahe') {
         index = 0;
         setTimeImage(0);
         time(labelDaxinganlingTaheCounty);
     }
     //Changchun
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '南关区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Nanguan') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunNanguanDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '宽城区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Kuancheng') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunKuanchengDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '朝阳区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Chaoyang') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunChaoyangDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '二道区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Erdao') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunErdaoDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '绿园区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Lvyuan') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunLvyouDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '双阳区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Shuangyang') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunShuangyangDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '九台区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Jiutai') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunJiutaiDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '农安县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Nongan') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunNonganCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '榆树市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Yushu') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunYushuCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '德惠市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Panshi') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunDehuiCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === '公主岭市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Changchun' && countySelect.value === 'Gongzhuling') {
         index = 0;
         setTimeImage(0);
         time(labelChangchunGongzhulingCity);
     }
     //Jilin
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '昌邑区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Changyi') {
         index = 0;
         setTimeImage(0);
         time(labelJilinChangyiDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '龙潭区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Longtan') {
         index = 0;
         setTimeImage(0);
         time(labelJilinLongtanDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '船营区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Chuanying') {
         index = 0;
         setTimeImage(0);
         time(labelJilinChuanyingDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '丰满区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Fengman') {
         index = 0;
         setTimeImage(0);
         time(labelJilinFengmanDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '永吉县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Yongji') {
         index = 0;
         setTimeImage(0);
         time(labelJilinYongjiCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '蛟河市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Jiaohe') {
         index = 0;
         setTimeImage(0);
         time(labelJilinJiaoheCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '桦甸市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Huadian') {
         index = 0;
         setTimeImage(0);
         time(labelJilinHuadianCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '舒兰市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Shulan') {
         index = 0;
         setTimeImage(0);
         time(labelJilinShulanCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === '磐石市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Jilin' && countySelect.value === 'Panshi') {
         index = 0;
         setTimeImage(0);
         time(labelJilinPanshiCity);
     }
     //Siping
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === '铁西区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === 'Tiexi') {
         index = 0;
         setTimeImage(0);
         time(labelSipingTiexiDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === '铁东区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === 'Tiedong') {
         index = 0;
         setTimeImage(0);
         time(labelSipingTiedongDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === '梨树县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === 'Lishu') {
         index = 0;
         setTimeImage(0);
         time(labelSipingLishuCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === '伊通满族自治县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === 'Yintongmanzu') {
         index = 0;
         setTimeImage(0);
         time(labelSipingYimanCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === '双辽市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Siping' && countySelect.value === 'Shuangliao') {
         index = 0;
         setTimeImage(0);
         time(labelSipingShuangliaoCity);
     }
     //Liaoyuan
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === '龙山区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === 'Longshan') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyuanLongshanDistrict);
     }
 
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === '西安区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === 'Xian') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyuanXianDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === '东丰县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === 'Dongfeng') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyuanDongfengCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === '东辽县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Liaoyuan' && countySelect.value === 'Dongliao') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyuanDongliaoCounty);
     }
     //Tonghua
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '东昌区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Dongchang') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaDongchangDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '二道江区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Erdaojiang') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaErdaojiangDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '通化县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Tonghua') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaTonghuaCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '辉南县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Huinan') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaHuinanCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '柳河县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Liuhe') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaLiuheCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '梅河口市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Meihekou') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaMeihekouCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === '集安市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Tonghua' && countySelect.value === 'Jian') {
         index = 0;
         setTimeImage(0);
         time(labelTonghuaJianCity);
     }
     //Baishan
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === '浑江区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === 'Hunjiang') {
         index = 0;
         setTimeImage(0);
         time(labelBaishanHunjiangDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === '江源区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === 'Jiangyuan') {
         index = 0;
         setTimeImage(0);
         time(labelBaishanJiangyuanDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === '抚松县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === 'Fusong') {
         index = 0;
         setTimeImage(0);
         time(labelBaishanFusongCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === '靖宇县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === 'Jingyu') {
         index = 0;
         setTimeImage(0);
         time(labelBaishanJingyuCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === '长白朝鲜族自治县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === 'Changbaichaoxian') {
         index = 0;
         setTimeImage(0);
         time(labelBaishanChangbaichaoxianCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === '临江市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baishan' && countySelect.value === 'Linjiang') {
         index = 0;
         setTimeImage(0);
         time(labelBaishanLinjiangCity);
     }
     //Songyuan
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === '宁江区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === 'Ningjiang') {
         index = 0;
         setTimeImage(0);
         time(labelSongyuanNingjiangDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === '前郭尔罗斯蒙古族自治县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === 'Qianguoerluosi') {
         index = 0;
         setTimeImage(0);
         time(labelSongyuanQianguoerluosiCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === '长岭县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === 'Changling') {
         index = 0;
         setTimeImage(0);
         time(labelSongyuanChanglingCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === '乾安县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === 'Qianan') {
         index = 0;
         setTimeImage(0);
         time(labelSongyuanQiananCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === '扶余市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Songyuan' && countySelect.value === 'Fuyu') {
         index = 0;
         setTimeImage(0);
         time(labelSongyuanFuyuCity);
     }
     //Baicheng
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === '洮北区') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === 'Taobei') {
         index = 0;
         setTimeImage(0);
         time(labelBaichengTaobeiDistrict);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === '镇赉县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === 'Zhenlai') {
         index = 0;
         setTimeImage(0);
         time(labelBaichengZhenlaiCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === '通榆县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === 'Tongyu') {
         index = 0;
         setTimeImage(0);
         time(labelBaichengTongyuCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === '洮南市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === 'Taonan') {
         index = 0;
         setTimeImage(0);
         time(labelBaichengTaonanCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === '大安市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Baicheng' && countySelect.value === 'Daan') {
         index = 0;
         setTimeImage(0);
         time(labelBaichengDaanCity);
     }
     //Yanbian
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '延吉市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Yanji') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianYanjiCity);
     }
 
-    //'Yanbian': ['延吉市', '图们市', '敦化市', '珲春市', '龙井市', '和龙市', '汪清县', '安图县'],
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '图们市') {
+    //'Yanbian': ['Yanji', 'Tumen', 'Dunhua', 'Hunchun', 'Longjing', 'Helong', 'Wangqing', 'Antu'],
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Tumen') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianTumenCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '敦化市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Dunhua') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianDunhuaCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '珲春市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Hunchun') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianHunchunCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '龙井市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Longjing') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianLongjingCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '和龙市') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Helong') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianHelongCity);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '汪清县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Wangqing') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianWangqingCounty);
     }
-    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === '安图县') {
+    if (provinceSelect.value === 'Jilin' && citySelect.value === 'Yanbian' && countySelect.value === 'Antu') {
         index = 0;
         setTimeImage(0);
         time(labelYanbianAntuCounty);
     }
     //Shenyang
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '和平区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Heping') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangHepingDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '沈河区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Shenhe') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangShenheDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '大东区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Dadong') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangDadongDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '皇姑区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Huanggu') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangHuangguDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '铁西区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Tiexi') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangTiexiDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '苏家屯区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Sujiatun') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangSujiatunDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '浑南区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Hunnan') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangHunnanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '沈北新区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Shenbeixin') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangShenbeixinDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '于洪区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Yuhong') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangYuhongDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '辽中区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Liaozhong') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangLiaozhongDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '康平县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Kangping') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangKangpingCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '法库县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Faku') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangFakuCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === '新民市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Shenyang' && countySelect.value === 'Xinmin') {
         index = 0;
         setTimeImage(0);
         time(labelShenyangXinminCity);
     }
     //Dalian
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '中山区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Zhongshan') {
         index = 0;
         setTimeImage(0);
         time(labelDalianZhongshanDistrict);
     }
 
-    //'Dalian': ['中山区', '西岗区', '沙河口区', '甘井子区', '旅顺口区', '金州区', '普兰店区', '长海县', '瓦房店市', '庄河市'],
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '西岗区') {
+    //'Dalian': ['Zhongshan', 'Xigang', 'Shahekou', 'Ganjingzi', 'Lvshunkou', 'Jinzhou', 'Pulandian', 'Changhai', 'Wafangdian', 'Zhuanghe'],
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Xigang') {
         index = 0;
         setTimeImage(0);
         time(labelDalianXigangDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '沙河口区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Shahekou') {
         index = 0;
         setTimeImage(0);
         time(labelDalianShahekouDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '甘井子区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Ganjingzi') {
         index = 0;
         setTimeImage(0);
         time(labelDalianGanjingziDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '旅顺口区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Lvshunkou') {
         index = 0;
         setTimeImage(0);
         time(labelDalianLvshunkouDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '金州区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Jinzhou') {
         index = 0;
         setTimeImage(0);
         time(labelDalianJinzhouDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '普兰店区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Pulandian') {
         index = 0;
         setTimeImage(0);
         time(labelDalianPulandianDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '长海县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Changhai') {
         index = 0;
         setTimeImage(0);
         time(labelDalianChanghaiCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '瓦房店市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Wafangdian') {
         index = 0;
         setTimeImage(0);
         time(labelDalianWafangdianCity);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === '庄河市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dalian' && countySelect.value === 'Zhuanghe') {
         index = 0;
         setTimeImage(0);
         time(labelDalianZhuangheCity);
     }
     //Anshan
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '铁东区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Tiedong') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanTiedongDistrict);
@@ -1403,349 +1403,349 @@ function checkSelectedValues() {
 
 
 
-    //'Anshan': ['铁东区', '铁西区', '立山区', '千山区', '台安县', '岫岩满族自治县', '海城市'],
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '铁西区') {
+    //'Anshan': ['Tiedong', 'Tiexi', 'Lishan', 'Qianshan', 'Taian', 'Youyanmanzu', 'Haicheng'],
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Tiexi') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanTiexiDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '立山区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Lishan') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanLishanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '千山区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Qianshan') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanQianshanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '台安县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Taian') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanTaianCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '岫岩满族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Youyanmanzu') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanYoumanCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === '海城市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Anshan' && countySelect.value === 'Haicheng') {
         index = 0;
         setTimeImage(0);
         time(labelAnshanHaichengCity);
     }
     //Fushun
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '新抚区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Xinfu') {
         index = 0;
         setTimeImage(0);
         time(labelFushunXinfuDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '东洲区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Dongzhou') {
         index = 0;
         setTimeImage(0);
         time(labelFushunDongzhouDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '望花区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Wanghua') {
         index = 0;
         setTimeImage(0);
         time(labelFushunWanghuaDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '顺城区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Shuncheng') {
         index = 0;
         setTimeImage(0);
         time(labelFushunShunchengDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '抚顺县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Fushun') {
         index = 0;
         setTimeImage(0);
         time(labelFushunFushunCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '新宾满族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Xinbinmanzu') {
         index = 0;
         setTimeImage(0);
         time(labelFushunXinmanCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === '清原满族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fushun' && countySelect.value === 'Qingyuanmanzu') {
         index = 0;
         setTimeImage(0);
         time(labelFushunQingmanCounty);
     }
     //Benxi
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === '平山区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === 'Pingshan') {
         index = 0;
         setTimeImage(0);
         time(labelBenxiPingshanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === '溪湖区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === 'Xihu') {
         index = 0;
         setTimeImage(0);
         time(labelBenxiXihuDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === '明山区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === 'Mingshan') {
         index = 0;
         setTimeImage(0);
         time(labelBenxiMingshanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === '南芬区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === 'Nanfen') {
         index = 0;
         setTimeImage(0);
         time(labelBenxiNanfenDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === '本溪满族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === 'Benximanzu') {
         index = 0;
         setTimeImage(0);
         time(labelBenxiBenmanCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === '桓仁满族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Benxi' && countySelect.value === 'Huanrenmanzu') {
         index = 0;
         setTimeImage(0);
         time(labelBenxiHuanmanCounty);
     }
     //Dandong
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === '元宝区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === 'Yuanbao') {
         index = 0;
         setTimeImage(0);
         time(labelDandongYuanbaoDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === '振兴区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === 'Zhenxing') {
         index = 0;
         setTimeImage(0);
         time(labelDandongZhenxingDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === '振安区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === 'Zhenan') {
         index = 0;
         setTimeImage(0);
         time(labelDandongZhenanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === '宽甸满族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === 'Kuandianmanzu') {
         index = 0;
         setTimeImage(0);
         time(labelDandongKuanmanCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === '东港市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === 'Donggang') {
         index = 0;
         setTimeImage(0);
         time(labelDandongDonggangCity);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === '凤城市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Dandong' && countySelect.value === 'Fengcheng') {
         index = 0;
         setTimeImage(0);
         time(labelDandongFengchengCity);
     }
     //Jinzhou
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '古塔区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Guta') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouGutaDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '凌河区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Linghe') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouLingheDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '太和区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Taihe') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouTaiheDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '黑山县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Heishan') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouHeishanCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '义县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Yixian') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouYiCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '凌海市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Linghai') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouLinghaiCity);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === '北镇市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Jinzhou' && countySelect.value === 'Beizhen') {
         index = 0;
         setTimeImage(0);
         time(labelJinzhouBeizhenCity);
     }
     //Yingkou
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === '站前区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === 'Zhanqian') {
         index = 0;
         setTimeImage(0);
         time(labelYingkouZhanqianDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === '西市区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === 'Xishi') {
         index = 0;
         setTimeImage(0);
         time(labelYingkouXishiDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === '鲅鱼圈区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === 'Bayuquan') {
         index = 0;
         setTimeImage(0);
         time(labelYingkouBayuquanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === '老边区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === 'Laobian') {
         index = 0;
         setTimeImage(0);
         time(labelYingkouLaobianDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === '盖州市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === 'Gaizhou') {
         index = 0;
         setTimeImage(0);
         time(labelYingkouGaizhouCity);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === '大石桥市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Yingkou' && countySelect.value === 'Dashiqiao') {
         index = 0;
         setTimeImage(0);
         time(labelYingkouDashiqiaoCity);
     }
     //Fuxin
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '海州区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Haizhou') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinHaizhouDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '新邱区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Xinqiu') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinXinqiuDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '太平区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Taiping') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinTaipingDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '清河门区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Qinghemen') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinQinghemenDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '细河区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Xihe') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinXiheDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '阜新蒙古族自治县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Fuxinmengguzu') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinFumengCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === '彰武县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Fuxin' && countySelect.value === 'Zhangwu') {
         index = 0;
         setTimeImage(0);
         time(labelFuxinZhangwuCounty);
     }
     //Liaoyang
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '白塔区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Baita') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangBaitaDistrict);
     }
 
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '文圣区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Wensheng') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangWenshengDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '宏伟区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Hongwei') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangHongweiDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '弓长岭区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Gongchangling') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangGongchanglingDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '太子河区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Taizihe') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangTaiziheDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '辽阳县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Liaoyang') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangLiaoyangCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === '灯塔市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Liaoyang' && countySelect.value === 'Dengta') {
         index = 0;
         setTimeImage(0);
         time(labelLiaoyangDengtaCity);
     }
     //Panjin
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === '双台子区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === 'Shuangtaizi') {
         index = 0;
         setTimeImage(0);
         time(labelPanjinShuangtaiziDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === '兴隆台区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === 'Xinglongtai') {
         index = 0;
         setTimeImage(0);
         time(labelPanjinXinglongtaiDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === '大洼区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === 'Dawa') {
         index = 0;
         setTimeImage(0);
         time(labelPanjinDawaDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === '盘山县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Panjin' && countySelect.value === 'Panshan') {
         index = 0;
         setTimeImage(0);
         time(labelPanjinPanshanCounty);
     }
     //Tieling
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '银州区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Yinzhou') {
         index = 0;
         setTimeImage(0);
         time(labelTielingYinzhouDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '清河区') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Qinghe') {
         index = 0;
         setTimeImage(0);
         time(labelTielingQingheDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '铁岭县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Tieling') {
         index = 0;
         setTimeImage(0);
         time(labelTielingTielingCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '西丰县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Xifeng') {
         index = 0;
         setTimeImage(0);
         time(labelTielingXifengCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '昌图县') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Changtu') {
         index = 0;
         setTimeImage(0);
         time(labelTielingChangtuCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '调兵山市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Diaobingshan') {
         index = 0;
         setTimeImage(0);
         time(labelTielingDiaobingshanCity);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === '开原市') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Tieling' && countySelect.value === 'Kaiyuan') {
         index = 0;
         setTimeImage(0);
         time(labelTielingKaiyuanCity);
     }
     //Chaoyang
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Shuangtaqu') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Shuangta') {
         index = 0;
         setTimeImage(0);
         time(labelChaoyangShuangtaDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Longchengqu') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Longcheng') {
         index = 0;
         setTimeImage(0);
         time(labelChaoyangLongchengDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Chaoyangxian') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Chaoyang') {
         index = 0;
         setTimeImage(0);
         time(labelChaoyangChaoyangCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Jianpingxian') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Jianping') {
         index = 0;
         setTimeImage(0);
         time(labelChaoyangJianpingCounty);
@@ -1755,43 +1755,43 @@ function checkSelectedValues() {
         setTimeImage(0);
         time(labelChaoyangKezuoCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Beipiaoshi') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'Beipiao') {
         index = 0;
         setTimeImage(0);
         time(labelChaoyangBeipiaoCity);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'lingyuanshi') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Chaoyang' && countySelect.value === 'lingyuan') {
         index = 0;
         setTimeImage(0);
         time(labelChaoyangLingyuanCity);
     }
     //Huludao
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Lianshanqu') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Lianshan') {
         index = 0;
         setTimeImage(0);
         time(labelHuludaoLianshanDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Longgangqu') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Longgang') {
         index = 0;
         setTimeImage(0);
         time(labelHuludaoLonggangDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Nanpiaoqu') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Nanpiao') {
         index = 0;
         setTimeImage(0);
         time(labelHuludaoNanpiaoDistrict);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Suizhongxian') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Suizhong') {
         index = 0;
         setTimeImage(0);
         time(labelHuludaoSuizhongCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Jianchangxian') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Jianchang') {
         index = 0;
         setTimeImage(0);
         time(labelHuludaoJianchangCounty);
     }
-    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Xingchengshi') {
+    if (provinceSelect.value === 'Liaoning' && citySelect.value === 'Huludao' && countySelect.value === 'Xingcheng') {
         index = 0;
         setTimeImage(0);
         time(labelHuludaoXingchengCity);
@@ -1858,7 +1858,7 @@ let labelHegangDongshanDistrict = [];
 let labelHegangXingshanDistrict = [];
 let labelHegangLuobeiCounty = [];
 let labelHegangSuibinCounty = [];
-//'Shuangyashan': ['尖山区', '岭东区', '四方台区', '宝山区', '集贤县', '友谊县', '宝清县', '饶河县'],
+//'Shuangyashan': ['Jianshan', 'Lingdong', 'Sifangtai', 'Baoshan', 'Jixian', 'Youyi', 'Baoqing', 'Raohe'],
 let labelShuangyashanJianshanDistrict = [];
 let labelShuangyashanLingdongDistrict = [];
 let labelShuangyashanSifangtaiDistrict = [];
@@ -1867,7 +1867,7 @@ let labelShuangyashanJixianCounty = [];
 let labelShuangyashanYouyiCounty = [];
 let labelShuangyashanBaoqingCounty = [];
 let labelShuangyashanYaoheCounty = [];
-//'Daqing': ['萨尔图区', '龙凤区', '让胡路区', '红岗区', '大同区', '肇州县', '肇源县', '林甸县', '杜尔伯特蒙古族自治县'],
+//'Daqing': ['Saertu', 'Longfeng', 'Ranghulu', 'Honggang', 'Datong', 'Zhaozhou', 'Zhaoyuan', 'Lindian', 'Duerbote'],
 let labelDaqingSaertuDistrict = [];
 let labelDaqingLongfengDistrict = [];
 let labelDaqingRanghuluDistrict = [];
@@ -1877,7 +1877,7 @@ let labelDaqingZhaozhouCounty = [];
 let labelDaqingZhaoyuanCounty = [];
 let labelDaqingLindianCounty = [];
 let labelDaqingDuerboteCounty = [];
-//'Yichun': ['伊美区', '乌翠区', '友好区','金林区', '嘉荫县', '汤旺县', '丰林县', '大箐山县', '南岔县', '铁力市'],
+//'Yichun': ['Yimei', 'Wucui', 'Youhao','Jinlin', 'Jiayin', 'Tangwang', 'Fenglin', 'Daqingshan', 'Nancha', 'Tieli'],
 let labelYichunYimeiDistrict = [];
 let labelYichunWucuiDistrict = [];
 let labelYichunYouhaoDistrict = [];
@@ -1888,7 +1888,7 @@ let labelYichunFenglinCounty = [];
 let labelYichunDaqingshanCounty = [];
 let labelYichunNanchaCounty = [];
 let labelYichunTieliCity = [];
-//'Jiamusi': ['Xingshan', '前进区', '东风区', '郊区', '桦南县', '桦川县', '汤原县', '同江市', '富锦市', '抚远市'],
+//'Jiamusi': ['Xingshan', 'Qianjin', 'Dongfeng', 'Jiaoqu', 'Huanan', 'Huachuan', 'Tangyuan', 'Tongjiang', 'Fujin', 'Fuyuan'],
 let labelJiamusiXiangyangDistrict = [];
 let labelJiamusiQianjinDistrict = [];
 let labelJiamusiDongfengDistrict = [];
@@ -1899,12 +1899,12 @@ let labelJiamusiTangyuanCounty = [];
 let labelJiamusiTongjiangCity = [];
 let labelJiamusiFujinCity = [];
 let labelJiamusiFuyuanCity = [];
-//'Qitaihe': ['新兴区', '桃山区', '茄子河区', '勃利县'],
+//'Qitaihe': ['Xinxing', 'Taoshan', 'Qiezihe', 'Boli'],
 let labelQitaiheXinxingDistrict = [];
 let labelQitaiheTaoshanDistrict = [];
 let labelQitaiheQieziheDistrict = [];
 let labelQitaiheBoliCounty = [];
-//'Mudanjiang': ['东安区', '阳明区', '爱民区', '西安区', '林口县', '绥芬河市', '海林市', '宁安市', '穆棱市', '东宁市'],
+//'Mudanjiang': ['Dongan', 'Yangming', 'Aimin', 'Xian', 'Linkou', 'Suifenhe', 'Hailin', 'Ningan', 'Muling', 'Dongning'],
 let labelMudanjiangDonganDistrict = [];
 let labelMudanjiangYangmingDistrict = [];
 let labelMudanjiangAiminDistrict = [];
@@ -1915,14 +1915,14 @@ let labelMudanjiangHailinCity = [];
 let labelMudanjiangNinganCity = [];
 let labelMudanjiangMulingCity = [];
 let labelMudanjiangDongningCity = [];
-//'Heihe': ['爱辉区', '逊克县', '孙吴县', '北安市', '五大连池市', '嫩江市'],
+//'Heihe': ['Aihui', 'Xunke', 'Sunwu', 'Beian', 'Wudalianchi', 'Nenjiang'],
 let labelHeiheAihuiDistrict = [];
 let labelHeiheXunkeCounty = [];
 let labelHeiheSunwuCounty = [];
 let labelHeiheBeianCity = [];
 let labelHeiheWudalianchiCity = [];
 let labelHeiheNenjiangCity = [];
-//'Suihua': ['北林区', '望奎县', '兰西县', '青冈县', '庆安县', '明水县', '绥棱县', '安达市', '肇东市', '海伦市'],
+//'Suihua': ['Beilin', 'Wangkui', 'Lanxi', 'Qinggang', 'Qingan', 'Mingshui', 'Suiling', 'Anda', 'Zhaodong', 'Hailun'],
 let labelSuihuaBeilinDistrict = [];
 let labelSuihuaWangkuiCounty = [];
 let labelSuihuaLanxiCounty = [];
@@ -1933,11 +1933,11 @@ let labelSuihuaSuilingCounty = [];
 let labelSuihuaAndaCity = [];
 let labelSuihuaZhaodongCity = [];
 let labelSuihuaHailunCity = [];
-//'Daxinganling': ['漠河市', '呼玛县', '塔河县'],
+//'Daxinganling': ['Mohe', 'Huma', 'Tahe'],
 let labelDaxinganlingMoheCity = [];
 let labelDaxinganlingHumaCounty = [];
 let labelDaxinganlingTaheCounty = [];
-//'Changchun': ['南关区', '宽城区', '朝阳区', '二道区', '绿园区', '双阳区', '九台区', '农安县', '榆树市', '德惠市','公主岭市'],
+//'Changchun': ['Nanguan', 'Kuancheng', 'Chaoyang', 'Erdao', 'Lvyuan', 'Shuangyang', 'Jiutai', 'Nongan', 'Yushu', 'Panshi','Gongzhuling'],
 let labelChangchunNanguanDistrict = [];
 let labelChangchunKuanchengDistrict = [];
 let labelChangchunChaoyangDistrict = [];
@@ -1949,7 +1949,7 @@ let labelChangchunNonganCounty = [];
 let labelChangchunYushuCity = [];
 let labelChangchunDehuiCity = [];
 let labelChangchunGongzhulingCity = [];
-//'Jilin': ['昌邑区', '龙潭区', '船营区', '丰满区', '永吉县', '蛟河市', '桦甸市', '舒兰市', '磐石市'],
+//'Jilin': ['Changyi', 'Longtan', 'Chuanying', 'Fengman', 'Yongji', 'Jiaohe', 'Huadian', 'Shulan', 'Panshi'],
 let labelJilinChangyiDistrict = [];
 let labelJilinLongtanDistrict = [];
 let labelJilinChuanyingDistrict = [];
@@ -1959,18 +1959,18 @@ let labelJilinJiaoheCity = [];
 let labelJilinHuadianCity = [];
 let labelJilinShulanCity = [];
 let labelJilinPanshiCity = [];
-//'Siping': ['铁西区', '铁东区', '梨树县', '伊通满族自治县', '双辽市'],
+//'Siping': ['Tiexi', 'Tiedong', 'Lishu', 'Yintongmanzu', 'Shuangliao'],
 let labelSipingTiexiDistrict = [];
 let labelSipingTiedongDistrict = [];
 let labelSipingLishuCounty = [];
 let labelSipingYimanCounty = [];
 let labelSipingShuangliaoCity = [];
-//'Liaoyuan': ['龙山区', '西安区', '东丰县', '东辽县'],
+//'Liaoyuan': ['Longshan', 'Xian', 'Dongfeng', 'Dongliao'],
 let labelLiaoyuanLongshanDistrict = [];
 let labelLiaoyuanXianDistrict = [];
 let labelLiaoyuanDongfengCounty = [];
 let labelLiaoyuanDongliaoCounty = [];
-//'Tonghua': ['东昌区', '二道江区', '通化县', '辉南县', '柳河县', '梅河口市', '集安市'],
+//'Tonghua': ['Dongchang', 'Erdaojiang', 'Tonghua', 'Huinan', 'Liuhe', 'Meihekou', 'Jian'],
 let labelTonghuaDongchangDistrict = [];
 let labelTonghuaErdaojiangDistrict = [];
 let labelTonghuaTonghuaCounty = [];
@@ -1978,26 +1978,26 @@ let labelTonghuaHuinanCounty = [];
 let labelTonghuaLiuheCounty = [];
 let labelTonghuaMeihekouCity = [];
 let labelTonghuaJianCity = [];
-//'Baishan': ['浑江区', '江源区', '抚松县', '靖宇县', '长白朝鲜族自治县', '临江市'],
+//'Baishan': ['Hunjiang', 'Jiangyuan', 'Fusong', 'Jingyu', 'Changbaichaoxian', 'Linjiang'],
 let labelBaishanHunjiangDistrict = [];
 let labelBaishanJiangyuanDistrict = [];
 let labelBaishanFusongCounty = [];
 let labelBaishanJingyuCounty = [];
 let labelBaishanChangbaichaoxianCounty = [];
 let labelBaishanLinjiangCity = [];
-//'Songyuan': ['宁江区', '前郭尔罗斯蒙古族自治县', '长岭县', '乾安县', '扶余市'],
+//'Songyuan': ['Ningjiang', 'Qianguoerluosi', 'Changling', 'Qianan', 'Fuyu'],
 let labelSongyuanNingjiangDistrict = [];
 let labelSongyuanQianguoerluosiCounty = [];
 let labelSongyuanChanglingCounty = [];
 let labelSongyuanQiananCounty = [];
 let labelSongyuanFuyuCity = [];
-//'Baicheng': ['洮北区', '镇赉县', '通榆县', '洮南市', '大安市'],
+//'Baicheng': ['Taobei', 'Zhenlai', 'Tongyu', 'Taonan', 'Daan'],
 let labelBaichengTaobeiDistrict = [];
 let labelBaichengZhenlaiCounty = [];
 let labelBaichengTongyuCounty = [];
 let labelBaichengTaonanCity = [];
 let labelBaichengDaanCity = [];
-//'Yanbian': ['延吉市', '图们市', '敦化市', '珲春市', '龙井市', '和龙市', '汪清县', '安图县'],
+//'Yanbian': ['Yanji', 'Tumen', 'Dunhua', 'Hunchun', 'Longjing', 'Helong', 'Wangqing', 'Antu'],
 let labelYanbianYanjiCity = [];
 let labelYanbianTumenCity = [];
 let labelYanbianDunhuaCity = [];
@@ -2006,7 +2006,7 @@ let labelYanbianLongjingCity = [];
 let labelYanbianHelongCity = [];
 let labelYanbianWangqingCounty = [];
 let labelYanbianAntuCounty = [];
-//'Shenyang': ['和平区', '沈河区', '大东区', '皇姑区', '铁西区', '苏家屯区', '浑南区', '沈北新区', '于洪区', '辽中区', '康平县', '法库县', '新民市'],
+//'Shenyang': ['Heping', 'Shenhe', 'Dadong', 'Huanggu', 'Tiexi', 'Sujiatun', 'Hunnan', 'Shenbeixin', 'Yuhong', 'Liaozhong', 'Kangping', 'Faku', 'Xinmin'],
 let labelShenyangHepingDistrict = [];
 let labelShenyangShenheDistrict = [];
 let labelShenyangDadongDistrict = [];
@@ -2020,7 +2020,7 @@ let labelShenyangLiaozhongDistrict = [];
 let labelShenyangKangpingCounty = [];
 let labelShenyangFakuCounty = [];
 let labelShenyangXinminCity = [];
-//'Dalian': ['中山区', '西岗区', '沙河口区', '甘井子区', '旅顺口区', '金州区', '普兰店区', '长海县', '瓦房店市', '庄河市'],
+//'Dalian': ['Zhongshan', 'Xigang', 'Shahekou', 'Ganjingzi', 'Lvshunkou', 'Jinzhou', 'Pulandian', 'Changhai', 'Wafangdian', 'Zhuanghe'],
 let labelDalianZhongshanDistrict = [];
 let labelDalianXigangDistrict = [];
 let labelDalianShahekouDistrict = [];
@@ -2031,7 +2031,7 @@ let labelDalianPulandianDistrict = [];
 let labelDalianChanghaiCounty = [];
 let labelDalianWafangdianCity = [];
 let labelDalianZhuangheCity = [];
-//'Anshan': ['铁东区', '铁西区', '立山区', '千山区', '台安县', '岫岩满族自治县', '海城市'],
+//'Anshan': ['Tiedong', 'Tiexi', 'Lishan', 'Qianshan', 'Taian', 'Youyanmanzu', 'Haicheng'],
 let labelAnshanTiedongDistrict = [];
 let labelAnshanTiexiDistrict = [];
 let labelAnshanLishanDistrict = [];
@@ -2039,7 +2039,7 @@ let labelAnshanQianshanDistrict = [];
 let labelAnshanTaianCounty = [];
 let labelAnshanYoumanCounty = [];
 let labelAnshanHaichengCity = [];
-//'Fushun': ['新抚区', '东洲区', '望花区', '顺城区', '抚顺县', '新宾满族自治县', '清原满族自治县'],
+//'Fushun': ['Xinfu', 'Dongzhou', 'Wanghua', 'Shuncheng', 'Fushun', 'Xinbinmanzu', 'Qingyuanmanzu'],
 let labelFushunXinfuDistrict = [];
 let labelFushunDongzhouDistrict = [];
 let labelFushunWanghuaDistrict = [];
@@ -2047,21 +2047,21 @@ let labelFushunShunchengDistrict = [];
 let labelFushunFushunCounty = [];
 let labelFushunXinmanCounty = [];
 let labelFushunQingmanCounty = [];
-//'Benxi': ['平山区', '溪湖区', '明山区', '南芬区', '本溪满族自治县', '桓仁满族自治县'],
+//'Benxi': ['Pingshan', 'Xihu', 'Mingshan', 'Nanfen', 'Benximanzu', 'Huanrenmanzu'],
 let labelBenxiPingshanDistrict = [];
 let labelBenxiXihuDistrict = [];
 let labelBenxiMingshanDistrict = [];
 let labelBenxiNanfenDistrict = [];
 let labelBenxiBenmanCounty = [];
 let labelBenxiHuanmanCounty = [];
-//'Dandong': ['元宝区', '振兴区', '振安区', '宽甸满族自治县', '东港市', '凤城市'],
+//'Dandong': ['Yuanbao', 'Zhenxing', 'Zhenan', 'Kuandianmanzu', 'Donggang', 'Fengcheng'],
 let labelDandongYuanbaoDistrict = [];
 let labelDandongZhenxingDistrict = [];
 let labelDandongZhenanDistrict = [];
 let labelDandongKuanmanCounty = [];
 let labelDandongDonggangCity = [];
 let labelDandongFengchengCity = [];
-//'Jinzhou': ['古塔区', '凌河区', '太和区', '黑山县', '义县', '凌海市', '北镇市'],
+//'Jinzhou': ['Guta', 'Linghe', 'Taihe', 'Heishan', 'Yixian', 'Linghai', 'Beizhen'],
 let labelJinzhouGutaDistrict = [];
 let labelJinzhouLingheDistrict = [];
 let labelJinzhouTaiheDistrict = [];
@@ -2069,14 +2069,14 @@ let labelJinzhouHeishanCounty = [];
 let labelJinzhouYiCounty = [];
 let labelJinzhouLinghaiCity = [];
 let labelJinzhouBeizhenCity = [];
-//'Yingkou': ['站前区', '西市区', '鲅鱼圈区', '老边区', '盖州市', '大石桥市'],
+//'Yingkou': ['Zhanqian', 'Xishi', 'Bayuquan', 'Laobian', 'Gaizhou', 'Dashiqiao'],
 let labelYingkouZhanqianDistrict = [];
 let labelYingkouXishiDistrict = [];
 let labelYingkouBayuquanDistrict = [];
 let labelYingkouLaobianDistrict = [];
 let labelYingkouGaizhouCity = [];
 let labelYingkouDashiqiaoCity = [];
-//'Fuxin': ['海州区', '新邱区', '太平区', '清河门区', '细河区', '阜新蒙古族自治县', '彰武县'],
+//'Fuxin': ['Haizhou', 'Xinqiu', 'Taiping', 'Qinghemen', 'Xihe', 'Fuxinmengguzu', 'Zhangwu'],
 let labelFuxinHaizhouDistrict = [];
 let labelFuxinXinqiuDistrict = [];
 let labelFuxinTaipingDistrict = [];
@@ -2084,7 +2084,7 @@ let labelFuxinQinghemenDistrict = [];
 let labelFuxinXiheDistrict = [];
 let labelFuxinFumengCounty = [];
 let labelFuxinZhangwuCounty = [];
-//'Liaoyang': ['白塔区', '文圣区', '宏伟区', '弓长岭区', '太子河区', '辽阳县', '灯塔市'],
+//'Liaoyang': ['Baita', 'Wensheng', 'Hongwei', 'Gongchangling', 'Taizihe', 'Liaoyang', 'Dengta'],
 let labelLiaoyangBaitaDistrict = [];
 let labelLiaoyangWenshengDistrict = [];
 let labelLiaoyangHongweiDistrict = [];
@@ -2092,12 +2092,12 @@ let labelLiaoyangGongchanglingDistrict = [];
 let labelLiaoyangTaiziheDistrict = [];
 let labelLiaoyangLiaoyangCounty = [];
 let labelLiaoyangDengtaCity = [];
-//'Panjin': ['双台子区', '兴隆台区', '大洼区', '盘山县'],
+//'Panjin': ['Shuangtaizi', 'Xinglongtai', 'Dawa', 'Panshan'],
 let labelPanjinShuangtaiziDistrict = [];
 let labelPanjinXinglongtaiDistrict = [];
 let labelPanjinDawaDistrict = [];
 let labelPanjinPanshanCounty = [];
-//'Tieling': ['银州区', '清河区', '铁岭县', '西丰县', '昌图县', '调兵山市', '开原市'],
+//'Tieling': ['Yinzhou', 'Qinghe', 'Tieling', 'Xifeng', 'Changtu', 'Diaobingshan', 'Kaiyuan'],
 let labelTielingYinzhouDistrict = [];
 let labelTielingQingheDistrict = [];
 let labelTielingTielingCounty = [];
@@ -2105,7 +2105,7 @@ let labelTielingXifengCounty = [];
 let labelTielingChangtuCounty = [];
 let labelTielingDiaobingshanCity = [];
 let labelTielingKaiyuanCity = [];
-//'Chaoyang': ['Shuangtaqu', 'Longchengqu', 'Chaoyangxian', 'Jianpingxian', 'Kezuomenggu', 'Beipiaoshi', 'lingyuanshi'],
+//'Chaoyang': ['Shuangta', 'Longcheng', 'Chaoyang', 'Jianping', 'Kezuomenggu', 'Beipiao', 'lingyuan'],
 let labelChaoyangShuangtaDistrict = [];
 let labelChaoyangLongchengDistrict = [];
 let labelChaoyangChaoyangCounty = [];
@@ -2113,7 +2113,7 @@ let labelChaoyangJianpingCounty = [];
 let labelChaoyangKezuoCounty = [];
 let labelChaoyangBeipiaoCity = [];
 let labelChaoyangLingyuanCity = [];
-//'Huludao': ['Lianshanqu', 'Longgangqu', 'Nanpiaoqu', 'Suizhongxian', 'Jianchangxian', 'Xingchengshi']
+//'Huludao': ['Lianshan', 'Longgang', 'Nanpiao', 'Suizhong', 'Jianchang', 'Xingcheng']
 let labelHuludaoLianshanDistrict = [];
 let labelHuludaoLonggangDistrict = [];
 let labelHuludaoNanpiaoDistrict = [];
@@ -2123,7 +2123,7 @@ let labelHuludaoXingchengCity = [];
 /////////////////////////////////////////////////////////////////
 readCSVFile();
 function readCSVFile() {
-    d3.csv("http://localhost:8080//File20231102.csv").then(function (data) {
+    d3.csv("../csv/File20231102.csv").then(function (data) {
         data.forEach(function (d) {
             let hour = parseFloat(d.Hour);
             //Harbin
