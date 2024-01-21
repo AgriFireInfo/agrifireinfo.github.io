@@ -1,4 +1,4 @@
-
+//Origin code obtained from https://github.com/brother-forteen/wind-Amap/blob/master/windy.js
 let Windy = function (params) {
   const VELOCITY_SCALE = 0.008;
   const INTENSITY_SCALE_STEP = 10;
