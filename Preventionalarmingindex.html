@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>Prevention Alarming Index</title>
+    <link rel="shortcut icon" href="images/Prescribed.jpg" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/cesium@1.90/Build/Cesium/Cesium.js"></script>
+      <script src="./js/viewerCesiumNavigationMixin.min.js"></script> 
+      <link rel="stylesheet" href="css/style.css">
+    <style>
+    @import url(https://cdn.jsdelivr.net/npm/cesium@1.90/Build/Cesium/Widgets/widgets.css);
+    html, body, #cesiumContainer {
+      width: 100%;
+      height: 92.7%;  /* calc(100% - 51px);40px 是您所需的其他部分（例如头部导航栏）的高度 */
+      margin: 0;
+      padding: 0;
+    }
+    .cesium-viewer-vrContainer {
+      z-index: 1200;
+    }
+
+    .legend {
+      bottom:120px;
+      left:60px;
+      position: fixed; 
+      z-index: 1099;
+      display: flex;
+      justify-content: center; 
+      flex-direction: column; /* 将图例项目垂直排列 */
+      align-items: center; /* 让图例项目在垂直方向居中显示 */
+
+    }
+    .vr-legend-left {
+      bottom:90px;
+      left:20px;
+      position: absolute; 
+      z-index: 1100;
+      display: flex;
+      justify-content: center; 
+      flex-direction: column; /* 将图例项目垂直排列 */
+      align-items: center; /* 让图例项目在垂直方向居中显示 */
+      display: none; /* Initially hidden in non-VR mode */
+    }
+
+    .vr-legend-right {
+      bottom:100px;
+      right:692px;
+      position: absolute; 
+      z-index: 1100;
+      display: flex;
+      justify-content: center; 
+      flex-direction: column; /* 将图例项目垂直排列 */
+      align-items: center; /* 让图例项目在垂直方向居中显示 */
+      display: none; /* Initially hidden in non-VR mode */
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      margin-bottom: 10px; /* 调整图例项目之间的垂直间距 */
+    }
+    .legend-item span {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+      white-space: nowrap; /* 防止文本换行 */
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .vr-legend-left-item span {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin-right: 5px;
+      white-space: nowrap; /* 防止文本换行 */
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="header-box-pai">
+      <header>
+          <div class="slogan">Advanced Platform for Monitoring and Management of Agricultural Fire</div>
+          <div class="container_header">
+              <nav>
+                  <ul>
+                      <li><a href="index.html" class="current" target="_self">Home</a></li>
+                      <li><a href="Metcondition.html" target="_blank">Meteorological and Air Quality condition</a></li>
+                      <li><a href="FireEmission.html" target="_blank">Fire Emission</a></li>
+                      <li><a href="NortheastChina.html" target="_blank">Fire radiative energy</a></li>
+                      <li><a href="Preventionalarmingindex.html" target="_blank">Prevention Alarming Index</a></li>
+                      <li><a href="BurnWindow.html" target="_blank">Burn Window</a></li>
+                      <li><a href="CropDistribution.html" target="_blank">Crop Residue Yield</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
+  </div>
+    <div id="cesiumContainer"></div>
+    <div class="legend">
+      <div class="legend-item">
+        <span class="legend-color"
+          style="background-color: rgb(0, 255, 0);"></span>
+        <span>Low (Crop residue cover 0-20%)</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color"
+          style="background-color: rgb(214, 243, 77);"></span>
+        <span>Medium-low (Crop residue cover 20%-40%)</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color"
+          style="background-color: rgb(255,255,0);"></span>
+        <span>Medium (Crop residue cover 40%-60%)</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color"
+          style="background-color: rgb(224,160,0);"></span>
+        <span>Medium-high (Crop residue cover 60%-80%)</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color"
+          style="background-color: rgb(255,0,0);"></span>
+        <span>High (Crop residue cover 80%-100%)</span>
+      </div>
+    </div>
+
+    <div class="vr-legend-left">
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(0, 255, 0);"></span>
+        <span>Low (Crop residue cover 0-20%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(214, 243, 77);"></span>
+        <span>Medium-low (Crop residue cover 20%-40%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(255,255,0);"></span>
+        <span>Medium (Crop residue cover 40%-60%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(224,160,0);"></span>
+        <span>Medium-high (Crop residue cover 60%-80%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(255,0,0);"></span>
+        <span>High (Crop residue cover 80%-100%)</span>
+      </div>
+    </div>
+
+    <div class="vr-legend-right">
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(0, 255, 0);"></span>
+        <span>Low (Crop residue cover 0-20%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(214, 243, 77);"></span>
+        <span>Medium-low (Crop residue cover 20%-40%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(255,255,0);"></span>
+        <span>Medium (Crop residue cover 40%-60%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(224,160,0);"></span>
+        <span>Medium-high (Crop residue cover 60%-80%)</span>
+      </div>
+      <div class="vr-legend-left-item">
+        <span class="legend-color"
+          style="background-color: rgb(255,0,0);"></span>
+        <span>High (Crop residue cover 80%-100%)</span>
+      </div>
+    </div>
+
+    <script>
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIxMDZiNDJmOC1iOThiLTQ1ZDctYjdjOS03ZDlkN2FkNzAyZWIiLCJpZCI6ODg4OTYsImlhdCI6MTcwMjU1MjUwNH0.RefFqMGW5Qn-2RzG7Ockf6IYFY5j1Cdk_OF5vrh5NJA';
+    var viewer = new Cesium.Viewer("cesiumContainer", {
+      vrButton: true,
+      terrainProvider: new Cesium.CesiumTerrainProvider({
+      url: Cesium.IonResource.fromAssetId(1), // Assuming the default Cesium terrain asset ID is 1
+      requestVertexNormals: true,
+      requestWaterMask: true,
+    }),
+      sceneMode: Cesium.SceneMode.SCENE3D
+    });
+    viewer.extend(Cesium.viewerCesiumNavigationMixin, {});
+    var clock = viewer.clock;
+
+// 设置时钟的当前时间
+var specifiedTime = Cesium.JulianDate.fromIso8601('2018-11-20T00:00:00Z');
+clock.currentTime = specifiedTime;
+//---------------------------------------------------------
+  // Define colors for different PM2.5 ranges
+  let yellowColor = Cesium.Color.YELLOW.withAlpha(0.4);
+  let redColor = Cesium.Color.RED.withAlpha(0.4);
+
+//----------------------------------------------------
+let blueColor = Cesium.Color.BLUE.withAlpha(0.4); // 0-10
+let alpha = 0.4;
+//10-20
+let red0      =  53 / 255;
+let green0    = 169 / 255;
+let blue0     = 242 / 255;
+let newColor0 = new Cesium.Color(red0, green0, blue0, alpha); //10-20
+
+//20-30
+let red1      =  76 / 255;
+let green1    = 243 / 255;
+let blue1     = 215 / 255;
+let newColor1 = new Cesium.Color(red1, green1, blue1, alpha); //20-30
+
+//30-40
+let red2      =  84 / 255;
+let green2    = 130 / 255;
+let blue2     = 53 / 255;
+let newColor2 = new Cesium.Color(red2, green2, blue2, alpha); //30-40
+
+//40-50
+let red3      =  0 / 255;
+let green3    = 255 / 255;
+let blue3     = 0 / 255;
+let newColor3 = new Cesium.Color(red3, green3, blue3, alpha); //40-50
+
+//50-60
+let red4      =  214 / 255;
+let green4    = 243 / 255;
+let blue4     = 77 / 255;
+let newColor4 = new Cesium.Color(red4, green4, blue4, alpha); //50-60
+
+//60-70
+let red5      = 255 / 255;
+let green5    = 255 / 255;
+let blue5     = 0 / 255;
+let newColor5 = new Cesium.Color(red5, green5, blue5, alpha); //60-70
+
+//70-80
+let red6      =  224 / 255;
+let green6    = 160 / 255;
+let blue6     = 0 / 255;
+let newColor6 = new Cesium.Color(red6, green6, blue6, alpha); //70-80
+
+//80-90
+let red7      =  255 / 255;
+let green7    =  0 / 255;
+let blue7     =  0 / 255;
+let newColor7 = new Cesium.Color(red7, green7, blue7, alpha); //70-80
+
+//90-100
+let red8      =  131 / 255;
+let green8    =  0 / 255;
+let blue8     =  1 / 255;
+let newColor8 = new Cesium.Color(red8, green8, blue8, alpha); //70-80
+//----------------------------------------------------
+
+// Load GeoJSON data
+  Cesium.GeoJsonDataSource.load('https://pfplatform.oss-cn-beijing.aliyuncs.com/PAI/pai500m.geojson')
+  .then(function(dataSource) {
+    // Iterate through entities to set color based on PM2.5 value ranges
+    dataSource.entities.values.forEach(function(entity) {
+      let pm25Value = entity.properties.Crc ? entity.properties.Crc._value : 0; //Assuming PM2.5 value is stored in the 'PM25' property
+      let height = viewer.scene.globe.getHeight(entity.polygon.hierarchy.getValue().positions[0]);
+      if (pm25Value > 0 && pm25Value <= 20) {
+        entity.polygon.material = newColor3;
+      } else if (pm25Value > 20 && pm25Value <= 40) {
+        entity.polygon.material = newColor4;
+      } else if (pm25Value > 40 && pm25Value <= 60) {
+        entity.polygon.material = newColor5;
+      } else if (pm25Value > 60 && pm25Value <= 80) {
+        entity.polygon.material = newColor6;
+      } else if (pm25Value > 80 && pm25Value <= 100) {
+        entity.polygon.material = newColor7;
+      }
+      entity.polygon.outline = false; // Hide the polygon outline
+      entity.polygon.height = height; // Ensure the height is 0 to be clamped to the ground
+      entity.polygon.extrudedHeight = height; 
+
+    });
+
+    viewer.dataSources.add(dataSource);
+    viewer.zoomTo(dataSource);
+  })
+  .otherwise(function(error) {
+    console.error(error);
+  });
+//-----------------------------------------------------------------------------------------
+//Notice: code are obtained from https://blog.csdn.net/wml00000/article/details/129179070 
+    let gl, refSpace, xrSession, animationFrameRequestID;
+    let originalDirection, originalPosition;
+    viewer.vrButton.viewModel.command.afterExecute.addEventListener(() => {
+      if (viewer.vrButton.viewModel.isVRMode) {
+        document.querySelector('.legend').style.display = 'none';
+        document.querySelector('.vr-legend-left').style.display = 'block';
+        document.querySelector('.vr-legend-right').style.display = 'block';
+        setTimeout(() => {
+          if (navigator.xr) {
+            navigator.xr.isSessionSupported('immersive-vr').then((supported) => {
+              if (supported) {
+                navigator.xr.requestSession('immersive-vr').then(sessionStarted);
+                originalDirection = viewer.camera.direction;
+   
+              } else {
+                console.error("VR devices not detected.");
+              }
+            }).catch(() => {
+              console.error("Detection failed.");
+            });
+          } else {
+            console.error("WebXR not supported in this browser.");
+          }
+        }, 200);
+      } else {
+        document.querySelector('.vr-legend-left').style.display = 'none'; 
+        document.querySelector('.vr-legend-right').style.display = 'none'; 
+        document.querySelector('.legend').style.display = 'block';
+        if (xrSession) xrSession.end();
+      }
+    });
+
+    function sessionStarted(session) {
+      xrSession = session;
+
+      xrSession.addEventListener("end", sessionEnded);
+      gl = viewer.scene.canvas.getContext('webgl', { xrCompatible: true });
+      session.updateRenderState({ baseLayer: new XRWebGLLayer(session, gl) });
+
+      session.requestReferenceSpace('local').then(s => {
+        refSpace = s;
+        session.requestAnimationFrame(onXRFrame);
+      })
+    }
+
+    function sessionEnded() {
+      if (animationFrameRequestID) {
+        xrSession.cancelAnimationFrame(animationFrameRequestID);
+        animationFrameRequestID = 0;
+      }
+      xrSession = null;
+    }
+    let lastTransMatrix = [
+      1, 0, 0, 0,
+      0, 1, 0, 0,
+      0, 0, 1, 0,
+      0, 0, 0, 1];
+    
+    function onXRFrame(time, frame) {
+      const session = frame.session;
+      animationFrameRequestID = session.requestAnimationFrame(onXRFrame);
+      const pose = frame.getViewerPose(refSpace);
+      if (pose) {
+        let glLayer = frame.session.renderState.baseLayer;
+
+        gl.bindFramebuffer(gl.FRAMEBUFFER, glLayer.framebuffer);
+        gl.clearColor(0, 0, 0, 1.0);
+        gl.clearDepth(1.0);
+        gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+        pose.views.forEach(view => {
+          let viewport = glLayer.getViewport(view);
+          gl.viewport(viewport.x, viewport.y, viewport.width, viewport.height);
+          gl.canvas.width = viewport.width * pose.views.length;
+          gl.canvas.height = viewport.height;
+          //------------------------------------------
+          if (view.eye == 'left') {
+             let mergedTransMatrix = Cesium.Matrix4.fromRowMajorArray(view.transform.inverse.matrix, new Cesium.Matrix4());
+             let realTransMatrix = Cesium.Matrix4.multiply(Cesium.Matrix4.fromRowMajorArray(lastTransMatrix, new Cesium.Matrix4()),
+              mergedTransMatrix, new Cesium.Matrix4());
+              let result = Cesium.Matrix4.multiplyByPoint(realTransMatrix, viewer.camera.direction, new Cesium.Cartesian3());
+              viewer.camera.direction = result;
+              //let position = Cesium.Matrix4.getTranslation(lastTransMatrix, new Cesium.Cartesian3());
+              gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+              viewer.scene.render();
+              lastTransMatrix = view.transform.matrix;
+          } 
+          //-------------------------------------------
+        })
+      }
+    }
+  </script>
+  </body>
+</html>

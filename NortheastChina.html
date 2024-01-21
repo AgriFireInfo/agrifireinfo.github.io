@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fire radiative energy</title>
+    <link rel="shortcut icon" href="images/Prescribed.jpg" />
+    <meta name="application-name" content="东北三省秸秆计划烧除模拟预报管控平台">
+    <meta name="keywords" content="东北三省、卫星火点、计划烧除、燃烧窗口、空气质量、预报、平台">
+    <meta name="description"
+      content="东北三省秸秆计划烧除预报模拟平台是基于空气质量模型">
+    <meta name="author" content="Guangyi Yang">
+    <meta name="email" content="1050011755@qq.com">
+    <meta name="copyright" content="版权所有，翻版必究。">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+    <style>
+      .tab {
+          margin-top: 20px;
+          display: block;
+          background-color: rgb(245, 208, 214);
+          margin-left: 100px;
+          margin-right: 40px;
+          border: 2px solid rgb(214, 222, 222);
+      }
+
+      .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 12px 16px;
+          transition: 0.3s;
+      }
+
+      .tab button:hover {
+          background-color: #ddd;
+      }
+
+      .tab button.active {
+          background-color: #ccc;
+      }
+
+      .chart-container-heilongjiang {
+          height: 400px;
+      }
+
+      .chart-container-heilongjiang:nth-child(n+2) {
+          display: none;
+      }
+
+      .chart-container-jilin {
+          height: 400px;
+      }
+
+      .chart-container-jilin:nth-child(n+2) {
+          display: none;
+      }
+
+      .chart-container-liaoning {
+          height: 400px;
+      }
+
+      .chart-container-liaoning:nth-child(n+2) {
+          display: none;
+      }
+
+      .box-container-heilongjiang {
+          height: 400px;
+          margin-top: 30px;
+          margin-left: 40px;
+          margin-right: 40px;
+          border-radius: 5px;
+          background-color: white;
+      }
+
+      .box-container-jilin {
+          height: 400px;
+          margin-top: 30px;
+          margin-left: 40px;
+          margin-right: 40px;
+          border-radius: 5px;
+          background-color: white;
+      }
+
+      .box-container-liaoning {
+          height: 400px;
+          margin-top: 30px;
+          margin-left: 40px;
+          margin-right: 40px;
+          border-radius: 5px;
+          background-color: white;
+      }
+
+      .tablinks-heilongjiang {
+          font-weight: bold;
+          font-family: 'Times New Roman', Times, serif;
+      }
+
+      .tablinks-jilin {
+          font-weight: bold;
+          font-family: 'Times New Roman', Times, serif;
+      }
+
+      .tablinks-liaoning {
+          font-weight: bold;
+          font-family: 'Times New Roman', Times, serif;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="header-box-emis" >
+        <header style="position: fixed;">
+            <div class="slogan">Advanced Platform for Monitoring and Management of Agricultural Fire</div>
+            <div class="container_header">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="current" target="_self">Home</a></li>
+                        <li><a href="Metcondition.html" target="_blank">Meteorological and Air Quality condition</a></li>
+                        <li><a href="FireEmission.html" target="_blank">Fire Emission</a></li>
+                        <li><a href="NortheastChina.html" target="_blank">Fire radiative energy</a></li>
+                        <li><a href="Preventionalarmingindex.html" target="_blank">Prevention Alarming Index</a></li>
+                        <li><a href="BurnWindow.html" target="_blank">Burn Window</a></li>
+                        <li><a href="CropDistribution.html" target="_blank">Crop Residue Yield</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <section id="content">
+      <div id="charts_container_main_nec">
+          <div id="heilongjiang" class="China_city">
+          </div>
+          <div id="JilinS" class="China_city">
+          </div>
+          <div id="Liaoning" class="China_city">
+          </div>
+
+          <div class="tab">
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Harbin')">Harbin</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Qiqihar')">Qiqhar</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Mudanjiang')">Mudanjiang</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Jiamusi')">Jiamusi</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Daqing')">Daqing</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Jixi')">Jixi</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Shuangyashan')">Shuangyashan</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Yichun')">Yichun</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Qitaihe')">Qitaihe</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Hegang')">Hegang</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Heihe')">Heihe</button>
+              <button class="tablinks-heilongjiang" onclick="showChartHeilongjiang(event, 'Suihua')">Suihua</button>
+              <button class="tablinks-heilongjiang"
+                  onclick="showChartHeilongjiang(event, 'Daxinganling')">Daxinganling</button>
+          </div>
+
+          <div class="box-city">
+              <div class="box-container-heilongjiang">
+                  <div id="Harbin" class="chart-container-heilongjiang"></div>
+                  <div id="Qiqihar" class="chart-container-heilongjiang"></div>
+                  <div id="Mudanjiang" class="chart-container-heilongjiang"></div>
+                  <div id="Jiamusi" class="chart-container-heilongjiang"></div>
+                  <div id="Daqing" class="chart-container-heilongjiang"></div>
+                  <div id="Jixi" class="chart-container-heilongjiang"></div>
+                  <div id="Shuangyashan" class="chart-container-heilongjiang"></div>
+                  <div id="Yichun" class="chart-container-heilongjiang"></div>
+                  <div id="Qitaihe" class="chart-container-heilongjiang"></div>
+                  <div id="Hegang" class="chart-container-heilongjiang"></div>
+                  <div id="Heihe" class="chart-container-heilongjiang"></div>
+                  <div id="Suihua" class="chart-container-heilongjiang"></div>
+                  <div id="Daxinganling" class="chart-container-heilongjiang"></div>
+              </div>
+          </div>
+
+          <!--吉林省-->
+          <div class="tab">
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Changchun')">Changchun</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Jilin')">Jilin</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Siping')">Siping</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Songyuan')">Songyuan</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Baicheng')">Baicheng</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Liaoyuan')">Liaoyuan</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Tonghua')">Tonghua</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Baishan')">Baishan</button>
+              <button class="tablinks-jilin" onclick="showChartJilin(event, 'Yanbian')">Yanbian</button>
+          </div>
+
+          <div class="box-city">
+              <div class="box-container-jilin">
+                  <div id="Changchun" class="chart-container-jilin"></div>
+                  <div id="Jilin" class="chart-container-jilin"></div>
+                  <div id="Siping" class="chart-container-jilin"></div>
+                  <div id="Songyuan" class="chart-container-jilin"></div>
+                  <div id="Baicheng" class="chart-container-jilin"></div>
+                  <div id="Liaoyuan" class="chart-container-jilin"></div>
+                  <div id="Tonghua" class="chart-container-jilin"></div>
+                  <div id="Baishan" class="chart-container-jilin"></div>
+                  <div id="Yanbian" class="chart-container-jilin"></div>
+              </div>
+          </div>
+          <!--11111111-->
+          <!--辽宁省-->
+          <div class="tab">
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Shenyang')">Shenyang</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Dalian')">Dalian</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Anshan')">Anshan</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Fushun')">Fushun</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Benxi')">Benxi</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Dandong')">Dandong</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Jinzhou')">Jinzhou</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Yingkou')">Yingkou</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Fuxin')">Fuxin</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Liaoyang')">Liaoyang</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Panjin')">Panjin</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Tieling')">Tieling</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Chaoyang')">Chaoyang</button>
+              <button class="tablinks-liaoning" onclick="showChartLiaoning(event, 'Huludao')">Huludao</button>
+          </div>
+
+          <div class="box-city">
+              <div class="box-container-liaoning">
+                  <div id="Shenyang" class="chart-container-liaoning"></div>
+                  <div id="Dalian" class="chart-container-liaoning"></div>
+                  <div id="Anshan" class="chart-container-liaoning"></div>
+                  <div id="Fushun" class="chart-container-liaoning"></div>
+                  <div id="Benxi" class="chart-container-liaoning"></div>
+                  <div id="Dandong" class="chart-container-liaoning"></div>
+                  <div id="Jinzhou" class="chart-container-liaoning"></div>
+                  <div id="Yingkou" class="chart-container-liaoning"></div>
+                  <div id="Fuxin" class="chart-container-liaoning"></div>
+                  <div id="Liaoyang" class="chart-container-liaoning"></div>
+                  <div id="Panjin" class="chart-container-liaoning"></div>
+                  <div id="Tieling" class="chart-container-liaoning"></div>
+                  <div id="Chaoyang" class="chart-container-liaoning"></div>
+                  <div id="Huludao" class="chart-container-liaoning"></div>
+              </div>
+          </div>
+          <script src="./linebarjs/Heilongjiang.js"></script>
+          <script src="./linebarjs/JilinS.js"></script>
+          <script src="./linebarjs/Liaoning.js"></script>
+          <script src="./linebarjs/Harbin.js"></script>
+          <script src="./linebarjs/Qiqihar.js"></script>
+          <script src="./linebarjs/Mudanjiang.js"></script>
+          <script src="./linebarjs/Jiamusi.js"></script>
+          <script src="./linebarjs/Daqing.js"></script>
+          <script src="./linebarjs/Jixi.js"></script>
+          <script src="./linebarjs/Shuangyashan.js"></script>
+          <script src="./linebarjs/Yichun.js"></script>
+          <script src="./linebarjs/Qitaihe.js"></script>
+          <script src="./linebarjs/Hegang.js"></script>
+          <script src="./linebarjs/Heihe.js"></script>
+          <script src="./linebarjs/Suihua.js"></script>
+          <script src="./linebarjs/Daxinganling.js"></script>
+          <script src="./linebarjs/Changchun.js"></script>
+          <script src="./linebarjs/Jilin.js"></script>
+          <script src="./linebarjs/Siping.js"></script>
+          <script src="./linebarjs/Songyuan.js"></script>
+          <script src="./linebarjs/Baicheng.js"></script>
+          <script src="./linebarjs/Liaoyuan.js"></script>
+          <script src="./linebarjs/Tonghua.js"></script>
+          <script src="./linebarjs/Baishan.js"></script>
+          <script src="./linebarjs/Yanbian.js"></script>
+          <script src="./linebarjs/Shenyang.js"></script>
+          <script src="./linebarjs/Dalian.js"></script>
+          <script src="./linebarjs/Anshan.js"></script>
+          <script src="./linebarjs/Fushun.js"></script>
+          <script src="./linebarjs/Benxi.js"></script>
+          <script src="./linebarjs/Dandong.js"></script>
+          <script src="./linebarjs/Jinzhou.js"></script>
+          <script src="./linebarjs/Yingkou.js"></script>
+          <script src="./linebarjs/Fuxin.js"></script>
+          <script src="./linebarjs/Liaoyang.js"></script>
+          <script src="./linebarjs/Panjin.js"></script>
+          <script src="./linebarjs/Tieling.js"></script>
+          <script src="./linebarjs/Chaoyang.js"></script>
+          <script src="./linebarjs/Huludao.js"></script>
+
+        <!--Heilongjiang-->
+          <script>
+              (function () {
+                  containers = document.getElementsByClassName("chart-container-heilongjiang");
+                  if (containers.length > 0) {
+                      containers[0].style.display = "block";
+                  }
+              })()
+              function showChartHeilongjiang(evt, chartID) {
+                  let containers = document.getElementsByClassName("chart-container-heilongjiang");
+                  for (let i = 0; i < containers.length; i++) {
+                      containers[i].style.display = "none";
+                  }
+
+                  let tablinks = document.getElementsByClassName("tablinks-heilongjiang");
+                  for (let i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = "tablinks-heilongjiang";
+                  }
+
+                  document.getElementById(chartID).style.display = "block";
+                  evt.currentTarget.className += " active";
+              }
+          </script>
+       <!--Jilin-->
+          <script>
+              (function () {
+                  containers = document.getElementsByClassName("chart-container-jilin");
+                  if (containers.length > 0) {
+                      containers[0].style.display = "block";
+                  }
+              })()
+
+              function showChartJilin(evt, chartID) {
+                  let containers = document.getElementsByClassName("chart-container-jilin");
+                  for (let i = 0; i < containers.length; i++) {
+                      containers[i].style.display = "none";
+                  }
+
+                  let tablinks = document.getElementsByClassName("tablinks-jilin");
+                  for (let i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = "tablinks-jilin";
+                  }
+
+                  document.getElementById(chartID).style.display = "block";
+                  evt.currentTarget.className += " active";
+              }
+          </script>
+         <!--Liaoning-->
+          <script>
+              (function () {
+                  containers = document.getElementsByClassName("chart-container-liaoning");
+                  if (containers.length > 0) {
+                      containers[0].style.display = "block";
+                  }
+              })()
+
+              function showChartLiaoning(evt, chartID) {
+                  let containers = document.getElementsByClassName("chart-container-liaoning");
+                  for (let i = 0; i < containers.length; i++) {
+                      containers[i].style.display = "none";
+                  }
+
+                  let tablinks = document.getElementsByClassName("tablinks-liaoning");
+                  for (let i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = "tablinks-liaoning";
+                  }
+
+                  document.getElementById(chartID).style.display = "block";
+                  evt.currentTarget.className += " active";
+              }
+          </script>
+  </body>
+</html>
